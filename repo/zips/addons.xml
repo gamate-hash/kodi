@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.nofluence" version="1.01" name="Nofluence" provider-name="YO MAMA">
-	<requires>
-		<import addon="xbmc.gui" version="5.17.0"/>
-	</requires>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<description lang="en_US">NO BITCHES!!!!! LOL!</description>
-	</extension>
-</addon>
+  <addon id="skin.nofluence" version="1.0.1" name="Nofluence" provider-name="YO MAMA" type="skin">
+    <requires>
+      <import addon="xbmc.gui" version="5.17.0"/>
+    </requires>
+
+    <!-- Metadata -->
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <description lang="en_US">NO BITCHES!!!!! LOL!</description>
+      <summary lang="en_US">A minimal skin</summary>
+      <disclaimer lang="en_US">Use at your own risk.</disclaimer>
+      <license>GPL v2</license>
+    </extension>
+    <extension point="xbmc.skin">
+      <defaultres>1080p</defaultres>
+    </extension>
+  </addon>
 </addons>
