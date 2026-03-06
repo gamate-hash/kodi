@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="skin.nofluence" version="1.0.1" name="test" provider-name="YO MAMA" type="skin">
+    <requires>
+      <import addon="xbmc.gui" version="5.17.0"/>
+    </requires>
+
+    <!-- Metadata -->
+    <extension point="xbmc.addon.metadata">
+      <platform>all</platform>
+      <description lang="en_US">NO BITCHES!!!!! LOL!</description>
+      <summary lang="en_US">A minimal skin</summary>
+      <disclaimer lang="en_US">Use at your own risk.</disclaimer>
+      <license>GPL v2</license>
+    </extension>
+<extension point="xbmc.skin">
+    <assets>
+        <xml>1080p</xml>
+        <media>media</media>
+    </assets>
+    <defaultres>1080p</defaultres>
+</extension>
+  </addon>
+</addons>

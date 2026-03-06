@@ -16,6 +16,7 @@
 <extension point="xbmc.skin">
     <assets>
         <xml>1080p</xml>
+        <media>media</media>
     </assets>
     <defaultres>1080p</defaultres>
 </extension>
