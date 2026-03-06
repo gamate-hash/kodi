@@ -13,8 +13,11 @@
       <disclaimer lang="en_US">Use at your own risk.</disclaimer>
       <license>GPL v2</license>
     </extension>
-    <extension point="xbmc.skin">
-      <defaultres>1080p</defaultres>
-    </extension>
+<extension point="xbmc.skin">
+    <assets>
+        <xml>1080p</xml>
+    </assets>
+    <defaultres>1080p</defaultres>
+</extension>
   </addon>
 </addons>
