@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.nofluence" version="5.0.9" name="Nofluence" provider-name="YO MAMA">
+<addon id="skin.nofluence" version="1.01" name="Nofluence" provider-name="YO MAMA">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
