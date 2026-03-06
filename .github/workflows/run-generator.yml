@@ -2,7 +2,7 @@ name: Run Repo Generator
 
 on:
   workflow_dispatch: # Allows manual trigger from the Actions tab
-  # You can also add 'push' here to run on every push
+  push:
 
 jobs:
   build:
