@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.gamatehash" name="Gamate Hash Kodi Repository" version="1.0.2" provider-name="gamate-hash">
+<addon id="repository.gamatehash" name="Gamate Hash Kodi Repository" version="1.0.3" provider-name="gamate-hash">
     <extension point="xbmc.addon.repository" name="Gamate Hash Kodi Repository">
         <dir>
             <info compressed="false">https://gamate-hash.github.io/kodi/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/XLordKX/kodi/master/addons.xml.md5</checksum>
+            <checksum>https://gamate-hash.github.io/kodi/addons.xml.md5</checksum>
             <datadir zip="true">https://gamate-hash.github.io/kodifiles/</datadir>
             
         </dir>
