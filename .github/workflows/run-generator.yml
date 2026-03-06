@@ -1,0 +1,22 @@
+name: Run Repo Generator
+
+on:
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+  # You can also add 'push' here to run on every push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo content
+      uses: actions/checkout@v4 # Checkout the repository content
+      
+    - name: Setup python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # Specify the python version
+
+    - name: Execute python script
+      run: python _repo_generator.py # Command to run your script
+      
